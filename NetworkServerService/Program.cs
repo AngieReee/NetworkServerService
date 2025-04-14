@@ -9,7 +9,7 @@ namespace NetworkServerService
     internal class Program
     {
         private const int Port = 8080;
-        private const int BufferSize = 1024 + 2; // +2 для CRC
+        private const int BufferSize = 1024 + 2;
 
         public static async Task Main(string[] args)
         {
